@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asian Restaurants in Bellevue</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #16181d;
+      --muted: #626a73;
+      --panel: rgba(255, 255, 255, 0.94);
+      --line: rgba(24, 28, 33, 0.14);
+      --shadow: 0 18px 60px rgba(20, 24, 28, 0.18);
+      --chinese: #d84b40;
+      --japanese: #2d73c9;
+      --indian: #d98b25;
+      --korean: #8a5bd7;
+      --thai: #2a9d68;
+      --vietnamese: #00a7a7;
+      --other: #67717c;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      color: var(--ink);
+      background: #e6e8eb;
+      overflow: hidden;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .app {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(320px, 380px) 1fr;
+      height: 100%;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      z-index: 2;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      min-width: 0;
+      height: 100%;
+      border-right: 1px solid var(--line);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .header {
+      padding: 22px 22px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .summary {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+    }
+
+    .controls {
+      display: grid;
+      gap: 14px;
+      padding: 16px 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .search-wrap {
+      position: relative;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      min-height: 42px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: #ffffff;
+      outline: none;
+    }
+
+    .search-wrap input:focus {
+      border-color: #2d73c9;
+      box-shadow: 0 0 0 3px rgba(45, 115, 201, 0.16);
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .filter {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 36px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .filter input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--dot);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot) 20%, transparent);
+      flex: 0 0 auto;
+    }
+
+    .filter span:last-child {
+      overflow: hidden;
+      font-size: 0.82rem;
+      font-weight: 750;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .filter:has(input:not(:checked)) {
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.56);
+    }
+
+    .filter:has(input:not(:checked)) .dot {
+      background: #a8afb7;
+      box-shadow: none;
+    }
+
+    .list {
+      min-height: 0;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .venue {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 11px;
+      padding: 12px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .venue:hover,
+    .venue:focus-visible {
+      border-color: var(--line);
+      background: #fff;
+      outline: none;
+    }
+
+    .venue-dot {
+      width: 13px;
+      height: 13px;
+      margin-top: 4px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: var(--dot);
+      box-shadow: 0 0 0 1px rgba(24, 28, 33, 0.18);
+    }
+
+    .venue strong {
+      display: block;
+      color: var(--ink);
+      font-size: 0.95rem;
+      line-height: 1.2;
+    }
+
+    .venue span {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      line-height: 1.35;
+    }
+
+    .meta {
+      padding: 12px 22px 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1.45;
+    }
+
+    .meta a {
+      color: #2d73c9;
+      text-decoration: none;
+    }
+
+    #map {
+      min-width: 0;
+      height: 100%;
+    }
+
+    .maplibregl-popup-content {
+      min-width: 220px;
+      max-width: 300px;
+      padding: 14px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .popup-title {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+
+    .popup-line {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.4;
+    }
+
+    .popup-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #2d73c9;
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    @media (max-width: 760px) {
+      body {
+        overflow: auto;
+      }
+
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: 58vh auto;
+        min-height: 100vh;
+      }
+
+      #map {
+        grid-row: 1;
+      }
+
+      .sidebar {
+        grid-row: 2;
+        height: auto;
+        max-height: none;
+        border-right: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .list {
+        max-height: 46vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <aside class="sidebar" aria-label="Restaurant controls and results">
+      <header class="header">
+        <p class="eyebrow">Bellevue, Washington</p>
+        <h1>Asian Restaurant Map</h1>
+        <p class="summary"><span id="resultCount">0</span> OSM-tagged venues on a greyscale vector-tile basemap.</p>
+      </header>
+
+      <section class="controls" aria-label="Map filters">
+        <label class="search-wrap">
+          <input id="search" type="search" placeholder="Search name or cuisine">
+        </label>
+        <div class="filter-grid" id="filters"></div>
+      </section>
+
+      <section class="list" id="venueList" aria-label="Restaurant results"></section>
+
+      <footer class="meta">
+        Data: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> via Overpass API.
+        Coverage reflects venues currently tagged in OSM, not a guaranteed complete business directory.
+      </footer>
+    </aside>
+
+    <div id="map" aria-label="Map of Asian restaurants in Bellevue"></div>
+  </main>
+
+  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+  <script src="data/bellevue-asian-restaurants.js"></script>
+  <script>
+    const dataset = window.BELLEVUE_ASIAN_RESTAURANTS;
+    const allFeatures = dataset.features;
+    const colors = {
+      "Chinese / Taiwanese": "#d84b40",
+      "Japanese / Sushi": "#2d73c9",
+      "Indian / South Asian": "#d98b25",
+      "Korean": "#8a5bd7",
+      "Thai": "#2a9d68",
+      "Vietnamese": "#00a7a7",
+      "Pan-Asian / Other": "#67717c"
+    };
+    const categoryOrder = Object.keys(colors);
+    const activeCategories = new Set(categoryOrder);
+    let filteredFeatures = allFeatures;
+
+    const resultCount = document.querySelector("#resultCount");
+    const filters = document.querySelector("#filters");
+    const venueList = document.querySelector("#venueList");
+    const search = document.querySelector("#search");
+
+    const counts = allFeatures.reduce((acc, feature) => {
+      const category = feature.properties.category;
+      acc[category] = (acc[category] || 0) + 1;
+      return acc;
+    }, {});
+
+    categoryOrder.forEach((category) => {
+      const label = document.createElement("label");
+      label.className = "filter";
+      label.style.setProperty("--dot", colors[category]);
+      label.innerHTML = `
+        <input type="checkbox" value="${category}" checked>
+        <span class="dot" aria-hidden="true"></span>
+        <span>${category.replace(" / ", " + ")} (${counts[category] || 0})</span>
+      `;
+      filters.append(label);
+    });
+
+    const map = new maplibregl.Map({
+      container: "map",
+      style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+      center: [-122.1587, 47.6101],
+      zoom: 11.7,
+      attributionControl: true
+    });
+
+    map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
+
+    function featureCollection(features) {
+      return {
+        type: "FeatureCollection",
+        metadata: dataset.metadata,
+        features
+      };
+    }
+
+    function markerColorExpression() {
+      const expression = ["match", ["get", "category"]];
+      categoryOrder.forEach((category) => {
+        expression.push(category, colors[category]);
+      });
+      expression.push(colors["Pan-Asian / Other"]);
+      return expression;
+    }
+
+    function popupHtml(properties) {
+      const address = properties.address ? `<p class="popup-line">${escapeHtml(properties.address)}</p>` : "";
+      const hours = properties.opening_hours ? `<p class="popup-line">${escapeHtml(properties.opening_hours)}</p>` : "";
+      const phone = properties.phone ? `<p class="popup-line">${escapeHtml(properties.phone)}</p>` : "";
+      const website = safeUrl(properties.website) || properties.osm_url;
+      const linkLabel = safeUrl(properties.website) ? "Website" : "OpenStreetMap";
+      return `
+        <h2 class="popup-title">${escapeHtml(properties.name)}</h2>
+        <p class="popup-line">${escapeHtml(properties.category)} &middot; ${escapeHtml(properties.cuisine)}</p>
+        ${address}
+        ${hours}
+        ${phone}
+        <a class="popup-link" href="${escapeAttribute(website)}" target="_blank" rel="noreferrer">${linkLabel}</a>
+      `;
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#39;"
+      }[character]));
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replace(/`/g, "&#96;");
+    }
+
+    function safeUrl(value) {
+      return /^https?:\/\//i.test(String(value || "")) ? value : "";
+    }
+
+    function openPopup(feature) {
+      new maplibregl.Popup({ offset: 16, closeButton: true })
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML(popupHtml(feature.properties))
+        .addTo(map);
+    }
+
+    function renderList(features) {
+      venueList.innerHTML = "";
+      const fragment = document.createDocumentFragment();
+      features.forEach((feature) => {
+        const props = feature.properties;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "venue";
+        button.style.setProperty("--dot", colors[props.category]);
+        button.innerHTML = `
+          <span class="venue-dot" aria-hidden="true"></span>
+          <span>
+            <strong>${escapeHtml(props.name)}</strong>
+            <span>${escapeHtml(props.category)} &middot; ${escapeHtml(props.cuisine)}</span>
+          </span>
+        `;
+        button.addEventListener("click", () => {
+          map.flyTo({ center: feature.geometry.coordinates, zoom: 15.6, speed: 0.9 });
+          openPopup(feature);
+        });
+        fragment.append(button);
+      });
+      venueList.append(fragment);
+    }
+
+    function applyFilters() {
+      const query = search.value.trim().toLowerCase();
+      filteredFeatures = allFeatures.filter((feature) => {
+        const props = feature.properties;
+        const inCategory = activeCategories.has(props.category);
+        const haystack = `${props.name} ${props.cuisine} ${props.category} ${props.address}`.toLowerCase();
+        return inCategory && (!query || haystack.includes(query));
+      });
+
+      resultCount.textContent = filteredFeatures.length;
+      renderList(filteredFeatures);
+
+      if (map.getSource("restaurants")) {
+        map.getSource("restaurants").setData(featureCollection(filteredFeatures));
+      }
+    }
+
+    filters.addEventListener("change", (event) => {
+      if (event.target.matches("input[type='checkbox']")) {
+        if (event.target.checked) {
+          activeCategories.add(event.target.value);
+        } else {
+          activeCategories.delete(event.target.value);
+        }
+        applyFilters();
+      }
+    });
+
+    search.addEventListener("input", applyFilters);
+
+    map.on("load", () => {
+      map.addSource("restaurants", {
+        type: "geojson",
+        data: featureCollection(allFeatures),
+        cluster: true,
+        clusterRadius: 42,
+        clusterMaxZoom: 13
+      });
+
+      map.addLayer({
+        id: "restaurant-clusters",
+        type: "circle",
+        source: "restaurants",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#1e242b",
+          "circle-radius": ["step", ["get", "point_count"], 18, 12, 24, 36, 31],
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-width": 2,
+          "circle-opacity": 0.9
+        }
+      });
+
+      map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "restaurants",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-font": ["Open Sans Bold"],
+          "text-size": 12
+        },
+        paint: {
+          "text-color": "#ffffff"
+        }
+      });
+
+      map.addLayer({
+        id: "restaurant-points",
+        type: "circle",
+        source: "restaurants",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": markerColorExpression(),
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 5, 14, 8, 17, 12],
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-width": 1.8,
+          "circle-opacity": 0.94
+        }
+      });
+
+      map.addLayer({
+        id: "restaurant-labels",
+        type: "symbol",
+        source: "restaurants",
+        filter: ["!", ["has", "point_count"]],
+        minzoom: 14.2,
+        layout: {
+          "text-field": ["get", "name"],
+          "text-font": ["Open Sans Semibold"],
+          "text-size": 11,
+          "text-offset": [0, 1.15],
+          "text-anchor": "top",
+          "text-max-width": 12
+        },
+        paint: {
+          "text-color": "#22262b",
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 1.4
+        }
+      });
+
+      map.on("click", "restaurant-clusters", async (event) => {
+        const features = map.queryRenderedFeatures(event.point, { layers: ["restaurant-clusters"] });
+        const clusterId = features[0].properties.cluster_id;
+        const zoom = await map.getSource("restaurants").getClusterExpansionZoom(clusterId);
+        map.easeTo({ center: features[0].geometry.coordinates, zoom });
+      });
+
+      map.on("click", "restaurant-points", (event) => {
+        const feature = event.features[0];
+        openPopup(feature);
+      });
+
+      ["restaurant-clusters", "restaurant-points"].forEach((layer) => {
+        map.on("mouseenter", layer, () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", layer, () => {
+          map.getCanvas().style.cursor = "";
+        });
+      });
+
+      applyFilters();
+    });
+
+    applyFilters();
+  </script>
+</body>
+</html>

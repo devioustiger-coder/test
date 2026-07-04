@@ -1,0 +1,3176 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-04T04:43:38Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 340337966,
+  "lat": 47.6271572,
+  "lon": -122.1489543,
+  "tags": {
+    "addr:housenumber": "14339",
+    "addr:street": "Northeast 20th Street",
+    "addr:unit": "I",
+    "amenity": "restaurant",
+    "check_date": "2024-11-13",
+    "contact:facebook": "https://facebook.com/rasoiindianrestaurantbellevue",
+    "contact:instagram": "https://instagram.com/rasoiindianrestaurantbellevue",
+    "contact:whatsapp": "+1-425-679-6539",
+    "contact:yelp": "https://yelp.com/biz/rasoi-indian-restaurant-bellevue",
+    "cuisine": "indian;buffet;cake;bakery;curry;chaat;vada_pav;biryani;indo_chinese;tandoor",
+    "delivery": "yes",
+    "diet:swaminaryan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "info@rasoibellevue.com",
+    "indoor_seating": "yes",
+    "level": "0",
+    "lunch:buffet": "Sa-Su 11:30-15:30",
+    "name": "Rasoi Indian Restaurant and Bakery",
+    "opening_hours": "Mo-Th 11:00-21:30; Fr-Su 11:30-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1-425-679-6476",
+    "source": "local knowledge;business website",
+    "takeaway": "yes",
+    "website": "https://rasoibellevue.com",
+    "website:menu": "https://rasoibellevue.com/menu"
+  }
+},
+{
+  "type": "node",
+  "id": 340340361,
+  "lat": 47.6268807,
+  "lon": -122.1448865,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "taiwanese",
+    "name": "MonGa Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 340340742,
+  "lat": 47.6274173,
+  "lon": -122.1442970,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "description": "Vietnamese noodle &Teriyaki",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Photai",
+    "opening_hours": "Mo-Su 10:30-20:30"
+  }
+},
+{
+  "type": "node",
+  "id": 340340743,
+  "lat": 47.6276051,
+  "lon": -122.1437896,
+  "tags": {
+    "addr:postcode": "98007",
+    "addr:street": "NE 20th st",
+    "amenity": "restaurant",
+    "check_date": "2026-04-20",
+    "check_date:diet:vegan": "2026-04-20",
+    "check_date:diet:vegetarian": "2026-04-20",
+    "cuisine": "chinese",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Little Garden",
+    "website": "http://www.littlegardenchinese.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 395170771,
+  "lat": 47.6104903,
+  "lon": -122.1980371,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10618",
+    "addr:postcode": "98004",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "check_date": "2026-05-22",
+    "cuisine": "japanese",
+    "name": "Toshi's Teriyaki"
+  }
+},
+{
+  "type": "node",
+  "id": 427246530,
+  "lat": 47.6254515,
+  "lon": -122.1531238,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Liuyishou Hotpot",
+    "website": "https://www.liuyishouna.com/seattle"
+  }
+},
+{
+  "type": "node",
+  "id": 461089859,
+  "lat": 47.6152867,
+  "lon": -122.1956074,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-07-16",
+    "check_date:opening_hours": "2025-07-16",
+    "cuisine": "asian",
+    "name": "Bowl Gogi",
+    "opening_hours": "Mo-Fr 11:00-16:00; Sa,Su off"
+  }
+},
+{
+  "type": "node",
+  "id": 541389148,
+  "lat": 47.6113573,
+  "lon": -122.2012520,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-07-26",
+    "cuisine": "indian",
+    "name": "Cafe Bollywood",
+    "opening_hours": "Tu-Su 12:00-15:00,16:30-24:00",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1206853622,
+  "lat": 47.6149729,
+  "lon": -122.2013763,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "508",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Way Northeast",
+    "addr:unit": "508",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "level": "0",
+    "name": "Wild Ginger",
+    "phone": "+1-425-495-8889",
+    "website": "https://www.wildginger.net/locations-bellevue",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1212280057,
+  "lat": 47.6183123,
+  "lon": -122.1934009,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "850",
+    "addr:postcode": "98004",
+    "addr:street": "110th Avenue Northeast",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Chutneys"
+  }
+},
+{
+  "type": "node",
+  "id": 1212280181,
+  "lat": 47.6180754,
+  "lon": -122.1934170,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "850",
+    "addr:postcode": "98004",
+    "addr:street": "110th Avenue Northeast",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Kobe",
+    "phone": "+1-425-451-3888"
+  }
+},
+{
+  "type": "node",
+  "id": 1213922799,
+  "lat": 47.6270100,
+  "lon": -122.1543170,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1915-D",
+    "addr:state": "WA",
+    "addr:unit": "D1B",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "name": "Frying Fish",
+    "opening_hours": "Mo-Th 11:00-21:30; Fr 11:00-22:00; Sa 11:30-22:00; Su 11:30-21:30",
+    "outdoor_seating": "no",
+    "phone": "+1-425-643-1234",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://www.fryingfishbellevue.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1271644809,
+  "lat": 47.6157484,
+  "lon": -122.1971170,
+  "tags": {
+    "addr:housenumber": "15",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "name": "Inchin",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1657290053,
+  "lat": 47.5793693,
+  "lon": -122.1678848,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Tokyo Japanese",
+    "opening_hours": "Mo-Th 11:30-21:30; Fr-Sa 11:30-22:00; Su 12:00-21:30",
+    "phone": "+1-425-641-5691",
+    "smoking": "no",
+    "website": "http://www.tokyojr.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1987522456,
+  "lat": 47.6202669,
+  "lon": -122.1995606,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1101",
+    "addr:postcode": "98004",
+    "addr:street": "106th Avenue Northeast",
+    "addr:unit": "14",
+    "amenity": "restaurant",
+    "check_date": "2024-07-16",
+    "cuisine": "thai",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Rice'n'Spice",
+    "opening_hours": "Mo-Fr 11:00-15:30,16:00-21:00; Sa,Su 12:00-15:30,16:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-425-635-9474",
+    "source": "http://ricenspicethai.com/locations.html",
+    "website": "https://ricenspicethai.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2136439847,
+  "lat": 47.6308799,
+  "lon": -122.1540685,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "2331",
+    "addr:postcode": "98005",
+    "addr:state": "WA",
+    "addr:street": "140th Avenue Northeast",
+    "amenity": "restaurant",
+    "cuisine": "indian;buffet",
+    "diet:vegetarian": "yes",
+    "dinner:buffet": "Fr-Sa 17-21:45",
+    "lunch:buffet": "11-14:30",
+    "name": "Amulya Indian Cuisine",
+    "opening_hours": "11:00-14:30,17:00-22:00",
+    "phone": "+1-425-222-2786",
+    "website": "https://amulyaindiancuisine.com",
+    "website:menu": "https://amulyaindiancuisinewa.com/menu"
+  }
+},
+{
+  "type": "node",
+  "id": 2468387987,
+  "lat": 47.5768189,
+  "lon": -122.1699648,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Thai Ginger"
+  }
+},
+{
+  "type": "node",
+  "id": 2468388627,
+  "lat": 47.5766561,
+  "lon": -122.1703240,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12708",
+    "addr:postcode": "98006",
+    "addr:street": "Southeast 38th Street",
+    "amenity": "restaurant",
+    "check_date": "2025-04-03",
+    "cuisine": "chinese",
+    "name": "北方馆 North",
+    "opening_hours": "We-Su 11:00-15:00,17:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2468388686,
+  "lat": 47.5767610,
+  "lon": -122.1703267,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12700",
+    "addr:postcode": "98006",
+    "addr:street": "Southeast 38th Street",
+    "amenity": "restaurant",
+    "check_date": "2025-04-03",
+    "cuisine": "burger;japanese",
+    "diet:vegetarian": "yes",
+    "name": "Katsu Burger",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "organic": "yes",
+    "outdoor_seating": "no",
+    "payment:cash": "no",
+    "payment:credit_cards": "yes",
+    "phone": "+1-425-971-7228",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://www.katsuburger.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2594496483,
+  "lat": 47.6095795,
+  "lon": -122.1417079,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14845",
+    "addr:postcode": "98007",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "check_date": "2024-01-16",
+    "cuisine": "japanese",
+    "email": "bellevue@kuzuki.com",
+    "name": "Kizuki Ramen & Izakaya - Bellevue",
+    "opening_hours": "Mo-Th 11:00-21:30; Fr,Sa 11:00-22:00; Su 11:00-21:30",
+    "phone": "+1-425-243-7527",
+    "website": "http://kuzuki.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2625074502,
+  "lat": 47.6082821,
+  "lon": -122.1411870,
+  "tags": {
+    "addr:unit": "114",
+    "amenity": "restaurant",
+    "check_date": "2024-05-14",
+    "cuisine": "korean",
+    "indoor_seating": "yes",
+    "name": "Stone",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2629253951,
+  "lat": 47.5775373,
+  "lon": -122.1674441,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3640",
+    "addr:postcode": "98006",
+    "addr:street": "Factoria Boulevard Southeast",
+    "addr:unit": "E",
+    "alt_name": "ćhimac",
+    "amenity": "fast_food",
+    "cuisine": "korean;chicken",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Chi Mac",
+    "opening_hours": "Mo-Th 11:00-14:00,17:00-20:30; Fr 11:00-14:00,17:00-22:30; Sa 17:00-22:30",
+    "outdoor_seating": "patio",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2629253972,
+  "lat": 47.5774719,
+  "lon": -122.1674476,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3640",
+    "addr:street": "Factoria Boulevard Southeast",
+    "addr:unit": "H",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "indoor_seating": "yes",
+    "name": "Zhen Kee",
+    "old_name": "Kung-ho",
+    "opening_hours": "Mo-Su 11:00-21:30",
+    "outdoor_seating": "patio",
+    "payment:american_express": "yes",
+    "payment:discover_card": "yes",
+    "payment:jcb": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2629254045,
+  "lat": 47.5773729,
+  "lon": -122.1677990,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3700",
+    "addr:postcode": "98006",
+    "addr:street": "Factoria Boulevard Southeast",
+    "addr:unit": "F",
+    "amenity": "fast_food",
+    "contact:sms": "345345",
+    "cuisine": "thai",
+    "indoor_seating": "yes",
+    "name": "Tasty Thai",
+    "opening_hours": "Mo-Fr 11:00-15:00,16:00-21:00; Sa 12:00-21:00; Su off",
+    "outdoor_seating": "no",
+    "payment:american_express": "yes",
+    "payment:discover_card": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-425-641-1900",
+    "website": "https://tastythaifactoria.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2716358137,
+  "lat": 47.6268803,
+  "lon": -122.1446883,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14603",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Tang Bar Hot Pot Restaurant",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "phone": "+1-425-429-6448",
+    "website": "https://seattle.tangbar.us/"
+  }
+},
+{
+  "type": "node",
+  "id": 2737502227,
+  "lat": 47.6082852,
+  "lon": -122.1419710,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-05-14",
+    "cuisine": "chinese",
+    "name": "Szechuan Chef",
+    "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-21:30",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2868745248,
+  "lat": 47.6113204,
+  "lon": -122.2019644,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "103",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Way Northeast",
+    "addr:unit": "3",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Hokkaido Ramen Santouka",
+    "opening_hours": "11:00-21:00",
+    "phone": "+1-425-462-0141",
+    "website": "https://www.santouka-usa.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2971057903,
+  "lat": 47.6166564,
+  "lon": -122.2019692,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "515",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Way Northeast",
+    "amenity": "restaurant",
+    "check_date": "2023-09-23",
+    "cuisine": "indian",
+    "level": "0",
+    "name": "Farzi Café",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2985009878,
+  "lat": 47.6128035,
+  "lon": -122.1997964,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "304",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "105th Avenue Northeast",
+    "amenity": "restaurant",
+    "breakfast": "Fr-Su 9:00-11:30",
+    "cuisine": "indian",
+    "name": "Desi Takada Indian Grill",
+    "opening_hours": "Fr-Su 9:00-22:00; Mo-Tu 11:30-15:00,16:30-21:30; We-Th 11:30-21:30",
+    "outdoor_seating": "no",
+    "phone": "+1-425-679-6868",
+    "website": "https://desitadkabellevue.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2985009879,
+  "lat": 47.6098826,
+  "lon": -122.2043064,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "103",
+    "addr:postcode": "98004",
+    "addr:street": "102nd Avenue Southeast",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Ginza",
+    "smoking": "no",
+    "website": "https://www.ginzabellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2986971565,
+  "lat": 47.6100391,
+  "lon": -122.2031144,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10245",
+    "addr:postcode": "98004",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Monsoon East",
+    "opening_hours": "Mo-Fr 11:30-23:00; Sa 11:00-23:00",
+    "website": "https://www.monsoonrestaurants.com/east/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2988437886,
+  "lat": 47.6171329,
+  "lon": -122.2005618,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "700",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Way Northeast",
+    "amenity": "restaurant",
+    "brand": "Din Tai Fung",
+    "brand:en": "Din Tai Fung",
+    "brand:wikidata": "Q699142",
+    "brand:zh": "鼎泰豐",
+    "check_date": "2024-05-04",
+    "cuisine": "taiwanese",
+    "level": "0",
+    "name": "Din Tai Fung",
+    "name:en": "Din Tai Fung",
+    "name:zh": "鼎泰豐",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:30-22:00; Su 10:30-21:00",
+    "smoking": "no",
+    "website": "https://dintaifungusa.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3295744762,
+  "lat": 47.6311340,
+  "lon": -122.1450020,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14625",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 24th Street",
+    "addr:unit": "4B",
+    "amenity": "restaurant",
+    "branch": "Bellevue Overlake",
+    "brand": "Dough Zone",
+    "brand:en": "Dough Zone",
+    "brand:wikidata": "Q110239795",
+    "brand:zh": "麵貼面",
+    "contact:facebook": "https://facebook.com/doughzone",
+    "contact:instagram": "https://instagram.com/doughzoneusa",
+    "contact:tiktok": "https://tiktok.com/@doughzone",
+    "cuisine": "chinese",
+    "diet:gluten_free": "no",
+    "diet:vegetarian": "yes",
+    "food:dan_dan_noodles": "served",
+    "food:dessert": "served",
+    "food:dumplings": "served",
+    "food:fried_rice": "served",
+    "food:noodles": "served",
+    "food:potstickers": "served",
+    "food:salad": "served",
+    "food:wontons": "served",
+    "food:xiao_long_bao": "served",
+    "name": "Dough Zone",
+    "name:en": "Dough Zone",
+    "name:zh": "麵貼面",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "phone": "+1-425-641-5555",
+    "website": "https://doughzonedumplinghouse.com/overlake",
+    "website:allergens": "https://doughzonedumplinghouse.com/_files/ugd/358696_d05c8ac755da4e71a91342da51761f7c.pdf",
+    "website:menu": "https://doughzonedumplinghouse.com/wa02-vm"
+  }
+},
+{
+  "type": "node",
+  "id": 3295746561,
+  "lat": 47.6309962,
+  "lon": -122.1452654,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Anjappar Chettinad"
+  }
+},
+{
+  "type": "node",
+  "id": 3295746861,
+  "lat": 47.6309268,
+  "lon": -122.1449817,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14625",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 24th Street",
+    "addr:unit": "Suite 3",
+    "alt_name": "MTR1924;MTR;MTR 1924",
+    "amenity": "cafe",
+    "catering": "yes",
+    "contact:facebook": "https://facebook.com/mtrseattle",
+    "contact:instagram": "https://instagram.com/mtrmavallitiffinrooms",
+    "contact:yelp": "https://yelp.com/biz/mavalli-tiffin-rooms-bellevue",
+    "cuisine": "indian;south_indian;bengalurean;bangalorean",
+    "delivery": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "email": "mtr1924seattle@gmail.com",
+    "food:bath": "served",
+    "food:bhath": "served",
+    "food:chandrahara": "served",
+    "food:chat": "served",
+    "food:dessert": "served",
+    "food:dosa": "served",
+    "food:idli": "served",
+    "food:idly": "served",
+    "food:kharabhath": "served",
+    "food:uthappan": "served",
+    "food:vade": "served",
+    "name": "Mavalli Tiffin Rooms (MTR 1924)",
+    "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:30-21:30; Fr-Sa 11:30-15:00,17:30-22:00; Su 11:30-15:00,17:30-21:30",
+    "outdoor_seating": "no",
+    "phone": "+1-425-590-9709",
+    "start_date": "2023-12-17",
+    "strapline": "A legendary name in South Indian comfort food, eating out of its hands since 1924.",
+    "website": "https://mtrseattle.com",
+    "website:menu": "https://mtrseattle.com/menu",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3308773761,
+  "lat": 47.5746990,
+  "lon": -122.1710051,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3938",
+    "addr:postcode": "98006",
+    "addr:state": "WA",
+    "addr:street": "Factoria Mall Southeast",
+    "amenity": "fast_food",
+    "branch": "Factoria Mall",
+    "brand": "Panda Express",
+    "brand:wikidata": "Q1358690",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "name": "Panda Express",
+    "opening_hours": "Mo-Sa 10:30-21:30; Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-425-747-6890",
+    "takeaway": "yes",
+    "website": "https://www.pandaexpress.com/locations/wa/bellevue/1911",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3308773961,
+  "lat": 47.5749037,
+  "lon": -122.1709815,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "happy_hours": "Mo-Su 14:00-18:00,21:00-24:00",
+    "indoor_seating": "yes",
+    "name": "Ten Sushi",
+    "opening_hours": "Mo-Su 10:00-01:00",
+    "outdoor_seating": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3357259436,
+  "lat": 47.6142157,
+  "lon": -122.1943865,
+  "tags": {
+    "addr:unit": "270",
+    "amenity": "cafe",
+    "cuisine": "sushi",
+    "name": "Sushi Kudasai IV",
+    "phone": "+1-425-455-6255"
+  }
+},
+{
+  "type": "node",
+  "id": 3377511542,
+  "lat": 47.6301559,
+  "lon": -122.1559605,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "2285",
+    "addr:postcode": "98005",
+    "addr:state": "WA",
+    "addr:street": "140th Ave NE",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "delivery": "no",
+    "name": "Shahana Steakhouse",
+    "smoking": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3413306866,
+  "lat": 47.6211273,
+  "lon": -122.1331859,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1299",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Northeast",
+    "amenity": "restaurant",
+    "check_date": "2026-06-28",
+    "cuisine": "chinese;fish",
+    "name": "Nai Brother Chinese Sauerkraut Fish",
+    "website": "https://www.naibrotherbellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3579614495,
+  "lat": 47.6208189,
+  "lon": -122.1933925,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "11011",
+    "addr:postcode": "98004",
+    "addr:street": "Northeast 12th Street",
+    "addr:unit": "C1",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Rolls and Rolls Plus Sushi",
+    "outdoor_seating": "no",
+    "phone": "+1-425-454-4313",
+    "website": "http://rollsandrolls.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3818186193,
+  "lat": 47.6197288,
+  "lon": -122.2027458,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1075",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Bellevue Way Northeast",
+    "addr:unit": "B-2",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Xi'an Noodles",
+    "phone": "+1-425-286-8888",
+    "website": "https://www.xiannoodles.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3879068810,
+  "lat": 47.5766820,
+  "lon": -122.1372275,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Kuro Sushi",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3879177179,
+  "lat": 47.5816180,
+  "lon": -122.1395529,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "India Gate"
+  }
+},
+{
+  "type": "node",
+  "id": 3879177192,
+  "lat": 47.5816153,
+  "lon": -122.1394202,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Teriyaki and More"
+  }
+},
+{
+  "type": "node",
+  "id": 3879311325,
+  "lat": 47.5734416,
+  "lon": -122.1683677,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Teriyaki"
+  }
+},
+{
+  "type": "node",
+  "id": 3882946976,
+  "lat": 47.5793494,
+  "lon": -122.1674289,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3540",
+    "addr:postcode": "98006",
+    "addr:street": "Factoria Boulevard Southeast",
+    "addr:unit": "A",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Square Lotus",
+    "opening_hours": "Su-Th 11:00-20:00; Fr,Sa 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-425-679-0680",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3882946977,
+  "lat": 47.5772849,
+  "lon": -122.1690074,
+  "tags": {
+    "addr:unit": "I",
+    "amenity": "restaurant",
+    "check_date:opening_hours": "2024-04-16",
+    "cuisine": "sushi;japanese",
+    "name": "Musashi's",
+    "opening_hours": "Mo-Fr 11:30-14:30, Mo-Th 17:00-21:00, Sa 17:00-21:00; Su off",
+    "phone": "+1-425-463-9150",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3882954890,
+  "lat": 47.5757742,
+  "lon": -122.1686022,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Simply Indian"
+  }
+},
+{
+  "type": "node",
+  "id": 3882954894,
+  "lat": 47.5763862,
+  "lon": -122.1683383,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12816",
+    "addr:postcode": "98006",
+    "addr:street": "Southeast 38th Street",
+    "addr:unit": "J",
+    "amenity": "restaurant",
+    "check_date": "2025-08-25",
+    "cuisine": "chinese",
+    "name": "Tian Fu Bellevue",
+    "opening_hours": "Mo-Sa 11:45-14:45,17:00-20:45; Su 11:00-14:30,17:00-20:30",
+    "website": "https://www.ordertogo.com/restaurants/tf_factoria/mesh"
+  }
+},
+{
+  "type": "node",
+  "id": 3882954899,
+  "lat": 47.5757760,
+  "lon": -122.1687128,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Teriyaki Time"
+  }
+},
+{
+  "type": "node",
+  "id": 3883819256,
+  "lat": 47.6190839,
+  "lon": -122.1912725,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "989",
+    "addr:postcode": "98004",
+    "addr:street": "112th Avenue Northeast",
+    "addr:unit": "205",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "level": "2",
+    "name": "Shanghai Shanghai",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+1-425-531-7131",
+    "takeaway": "yes",
+    "website": "https://www.shanghaishanghaibellevue.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3883822564,
+  "lat": 47.6182486,
+  "lon": -122.1914657,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Tokyo Steak House"
+  }
+},
+{
+  "type": "node",
+  "id": 3883947008,
+  "lat": 47.6102752,
+  "lon": -122.2030425,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10246",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "check_date": "2026-05-29",
+    "cuisine": "thai",
+    "diet:vegan": "only",
+    "name": "Araya's Place",
+    "opening_hours": "Su-Th 11:30-15:00,16:30-21:00; Fr-Sa 11:30-15:00,16:30-21:00",
+    "phone": "+1-425-454-2440",
+    "smoking": "no",
+    "start_date": "1987",
+    "takeaway": "yes",
+    "website": "https://www.arayasplace.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3884179723,
+  "lat": 47.5733611,
+  "lon": -122.1720921,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "4092",
+    "addr:postcode": "98006",
+    "addr:street": "Factoria Boulevard Southeast",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "indoor_seating": "yes",
+    "name": "Dim Sum Factory",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3889813433,
+  "lat": 47.6273198,
+  "lon": -122.1489551,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Donburi Station",
+    "website": "https://donburistationbellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3889813448,
+  "lat": 47.6282967,
+  "lon": -122.1505741,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "noodle;chinese",
+    "name": "Nan Noodles",
+    "phone": "+1-724-596-6222",
+    "website": "https://pos.chowbus.com/online-ordering/store/15019"
+  }
+},
+{
+  "type": "node",
+  "id": 3889828774,
+  "lat": 47.6282980,
+  "lon": -122.1517190,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14150",
+    "addr:postcode": "98007",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Shaoshan Impression",
+    "website": "https://pos.chowbus.com/online-ordering/store/15107"
+  }
+},
+{
+  "type": "node",
+  "id": 3889833974,
+  "lat": 47.6263791,
+  "lon": -122.1548230,
+  "tags": {
+    "addr:unit": "B9",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "indoor_seating": "yes",
+    "name": "Thai Chef",
+    "opening_hours": "Mo-Su 11:00-20:30",
+    "outdoor_seating": "no",
+    "phone": "+1-425-562-7955",
+    "website": "http://www.thaichefbellevue.net/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3899099457,
+  "lat": 47.6274111,
+  "lon": -122.1440156,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14701",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "NE 20th St",
+    "addr:unit": "M-12",
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "Tiger Bites",
+    "opening_hours": "Mo-We,Fr,Sa 11:00-20:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3899118617,
+  "lat": 47.6276109,
+  "lon": -122.1444262,
+  "tags": {
+    "alt_name": "85°C;85C",
+    "amenity": "cafe",
+    "brand": "85°C Bakery Cafe",
+    "brand:wikidata": "Q4644852",
+    "check_date": "2024-07-21",
+    "cuisine": "coffee_shop;chinese",
+    "name": "85°C Bakery Cafe",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3926527639,
+  "lat": 47.6172132,
+  "lon": -122.2028700,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-05-04",
+    "cuisine": "thai",
+    "level": "2",
+    "name": "Thai Kitchen Bird Pepper",
+    "opening_hours": "Mo-Fr 11:00-22:00; Sa-Su 11:00-24:00",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3928038756,
+  "lat": 47.6185946,
+  "lon": -122.1986318,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-07-16",
+    "cuisine": "sushi",
+    "disused:amenity": "restaurant",
+    "name": "Musashi’s"
+  }
+},
+{
+  "type": "node",
+  "id": 3950968415,
+  "lat": 47.6304374,
+  "lon": -122.1544949,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "2255",
+    "addr:postcode": "98005",
+    "addr:state": "WA",
+    "addr:street": "140th Avenue Northeast",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "I Love Teriyaki"
+  }
+},
+{
+  "type": "node",
+  "id": 3950968421,
+  "lat": 47.6299141,
+  "lon": -122.1547965,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Tasty Time 425 & KTV Karaoke Lounge",
+    "phone": "+1-425-644-5000"
+  }
+},
+{
+  "type": "node",
+  "id": 3950968423,
+  "lat": 47.6299241,
+  "lon": -122.1554631,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "Little Taipei"
+  }
+},
+{
+  "type": "node",
+  "id": 4188513990,
+  "lat": 47.6146755,
+  "lon": -122.1960235,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-10-20",
+    "cuisine": "vietnamese",
+    "name": "Pho Cyclo Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4241485520,
+  "lat": 47.6175584,
+  "lon": -122.1279513,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15920",
+    "addr:postcode": "98008",
+    "addr:street": "Northeast 8th Street",
+    "addr:unit": "3",
+    "amenity": "restaurant",
+    "check_date": "2024-10-24",
+    "cuisine": "indian",
+    "indoor_seating": "yes",
+    "name": "Namasthe",
+    "opening_hours": "Mo,We,Th 11:30-14:30,17:30-22:00; Fr-Su 11:30-15:00,17:30-22:00; Tu off",
+    "outdoor_seating": "yes",
+    "phone": "+1-425-333-3336",
+    "website": "https://www.namasthebellevue.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4535344160,
+  "lat": 47.6230867,
+  "lon": -122.1331905,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Bawarchi Indian Restaurant",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4658727696,
+  "lat": 47.6179870,
+  "lon": -122.1921993,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "11011",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Northeast 9th Street",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Minamoto",
+    "phone": "+1-425-999-3338"
+  }
+},
+{
+  "type": "node",
+  "id": 4728664413,
+  "lat": 47.6103433,
+  "lon": -122.2026086,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10300",
+    "addr:postcode": "98004",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "brand": "Dough Zone",
+    "brand:en": "Dough Zone",
+    "brand:wikidata": "Q110239795",
+    "brand:zh": "麵貼面",
+    "cuisine": "chinese",
+    "name": "Dough Zone",
+    "name:en": "Dough Zone",
+    "name:zh": "麵貼面",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "payment:cash": "yes",
+    "phone": "+1-425-454-3333",
+    "website": "https://doughzonedumplinghouse.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4728664414,
+  "lat": 47.6100322,
+  "lon": -122.2026916,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10317",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "no",
+    "name": "Peony",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 11:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-425-502-7652",
+    "takeaway": "yes",
+    "website": "https://www.peonykitchen.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4782560559,
+  "lat": 47.5969857,
+  "lon": -122.1497097,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1504",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "145th Place Southeast",
+    "amenity": "restaurant",
+    "check_date": "2024-05-04",
+    "cuisine": "teriyaki",
+    "name": "Tokyo Stop Teriyaki",
+    "opening_hours": "Mo-Fr 10:30-20:50; Sa 11:00-20:50",
+    "phone": "+1-425-653-3577",
+    "website": "https://www.tokyostopteriyaki.com/",
+    "website:menu": "https://www.tokyostopteriyaki.com/menu/"
+  }
+},
+{
+  "type": "node",
+  "id": 4790755655,
+  "lat": 47.6042959,
+  "lon": -122.1326469,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "667",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Southeast",
+    "amenity": "restaurant",
+    "check_date": "2024-08-17",
+    "cuisine": "malaysian",
+    "name": "Malay Satay Hut"
+  }
+},
+{
+  "type": "node",
+  "id": 4790755661,
+  "lat": 47.6046109,
+  "lon": -122.1324554,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "627",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Southeast",
+    "amenity": "restaurant",
+    "check_date": "2024-08-17",
+    "cuisine": "japanese",
+    "name": "Shabu Shabu Kyoto",
+    "phone": "+1-425-502-9489"
+  }
+},
+{
+  "type": "node",
+  "id": 4955850381,
+  "lat": 47.6174907,
+  "lon": -122.1279522,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15920",
+    "addr:postcode": "98008",
+    "addr:street": "Northeast 8th Street",
+    "amenity": "restaurant",
+    "check_date": "2024-10-24",
+    "cuisine": "thai",
+    "indoor_seating": "yes",
+    "name": "Thai VP",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-21:30; Su 15:00-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-425-502-7115",
+    "website": "http://thaivpbellevue.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4955850382,
+  "lat": 47.6176366,
+  "lon": -122.1279503,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15920",
+    "addr:postcode": "98008",
+    "addr:street": "Northeast 8th Street",
+    "addr:unit": "1",
+    "amenity": "restaurant",
+    "check_date": "2024-10-25",
+    "check_date:opening_hours": "2024-05-19",
+    "cuisine": "japanese",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Joy Box Teriyaki",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su off",
+    "outdoor_seating": "yes",
+    "website": "https://joyboxbellevue.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5096603753,
+  "lat": 47.6148776,
+  "lon": -122.2010762,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-08-24",
+    "cuisine": "japanese",
+    "level": "0",
+    "name": "Japonessa Sushi Cocina",
+    "toilets:wheelchair": "yes",
+    "website": "http://bellevue.japonessa.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5268867561,
+  "lat": 47.6207446,
+  "lon": -122.1989380,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1150",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "106th Avenue Northeast",
+    "amenity": "restaurant",
+    "check_date": "2024-07-16",
+    "cuisine": "japanese",
+    "indoor_seating": "yes",
+    "name": "The Koi",
+    "opening_hours": "Mo-Th, Su 11:00-21:30; Fr, Sa 11:00-22:00",
+    "outdoor_seating": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5278619058,
+  "lat": 47.6285601,
+  "lon": -122.1640057,
+  "tags": {
+    "addr:street": "13238 NE 20th st",
+    "addr:unit": "100",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Kin Dee",
+    "opening_hours": "Mo-Fr 11:00-15:00, 16:30-20:30; Sa, Su 11:00-20:30",
+    "phone": "+1-425-384-2888",
+    "website": "https://www.kindeebellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5278619059,
+  "lat": 47.6285577,
+  "lon": -122.1642467,
+  "tags": {
+    "addr:unit": "400",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Royal Kitchen",
+    "opening_hours": "Mo closed,Tu-Fr 11:00-21:00,Sa-Su 10:00-21:00",
+    "phone": "+1-425-378-8009",
+    "website": "https://kingswatogo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5278629742,
+  "lat": 47.6288129,
+  "lon": -122.1655697,
+  "tags": {
+    "addr:unit": "300",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Dan Gui Sichuan Cuisine",
+    "phone": "+1-207-992-8888",
+    "website": "https://pos.chowbus.com/online-ordering/store/2471"
+  }
+},
+{
+  "type": "node",
+  "id": 5299598761,
+  "lat": 47.5753950,
+  "lon": -122.1687510,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3900",
+    "addr:postcode": "98006",
+    "addr:street": "Factoria Boulevard Southeast",
+    "addr:unit": "C",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "I Love Pho",
+    "website": "http://ilovepho.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5310679702,
+  "lat": 47.6127667,
+  "lon": -122.1986772,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "298",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "106th Avenue Northeast",
+    "amenity": "cafe",
+    "brand": "Hui Lau Shan",
+    "brand:en": "Hui Lau Shan",
+    "brand:wikidata": "Q5934913",
+    "brand:zh": "許留山",
+    "check_date": "2024-07-25",
+    "cuisine": "asian;dessert",
+    "name": "Hui Lau Shan",
+    "name:en": "Hui Lau Shan",
+    "name:zh": "許留山",
+    "phone": "+1-425-449-8183",
+    "takeaway": "yes",
+    "website": "https://www.bellevuehls.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5310679705,
+  "lat": 47.6126781,
+  "lon": -122.1985393,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "288",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "106th Avenue Northeast",
+    "addr:unit": "200",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Lao Ma Tou Hotpot",
+    "name:zh": "成都老码头",
+    "outdoor_seating": "no",
+    "reservation": "yes",
+    "website": "https://www.laomatoubellevue.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5338080770,
+  "lat": 47.6231735,
+  "lon": -122.1331910,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1411",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Northeast",
+    "amenity": "restaurant",
+    "brand": "Happy Lamb Hot Pot",
+    "brand:en": "Happy Lamb Hot Pot",
+    "brand:wikidata": "Q123091978",
+    "brand:zh": "快乐小羊",
+    "contact:yelp": "https://www.yelp.com/biz/happy-lamb-hot-pot-bellevue",
+    "cuisine": "mongolian;hot_pot",
+    "name": "Happy Lamb Hot Pot",
+    "name:en": "Happy Lamb Hot Pot",
+    "name:zh": "快乐小羊",
+    "opening_hours": "Mo-Th 11:30-23:00, Fr-Su 11:30-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5338080771,
+  "lat": 47.6230307,
+  "lon": -122.1334538,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mr. Six"
+  }
+},
+{
+  "type": "node",
+  "id": 5608446853,
+  "lat": 47.6201650,
+  "lon": -122.2021448,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1105",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Way Northeast",
+    "addr:unit": "A-4",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Bhojan Express"
+  }
+},
+{
+  "type": "node",
+  "id": 5608446860,
+  "lat": 47.6198459,
+  "lon": -122.2027416,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1075",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Bellevue Way Northeast",
+    "addr:unit": "B-4",
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "Boiling Point"
+  }
+},
+{
+  "type": "node",
+  "id": 5675916227,
+  "lat": 47.6144104,
+  "lon": -122.2008718,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak_house;sushi",
+    "description": "Steak house and sushi with an unencumbered view from the 31st floor to the south and west.",
+    "dog": "no",
+    "level": "30",
+    "name": "Ascend Prime Steak and Sushi",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5833613059,
+  "lat": 47.6194715,
+  "lon": -122.1932663,
+  "tags": {
+    "addr:housenumber": "11000",
+    "addr:street": "Northeast 10th Street",
+    "addr:unit": "B",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Dumpling and Noodle"
+  }
+},
+{
+  "type": "node",
+  "id": 5864328985,
+  "lat": 47.6147041,
+  "lon": -122.2036095,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:floor": "2",
+    "addr:housenumber": "252",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Square",
+    "amenity": "restaurant",
+    "check_date": "2023-09-24",
+    "cuisine": "japanese",
+    "email": "bellsquare@kuzuki.com",
+    "level": "1",
+    "name": "Kizuki Ramen & Izakaya - Bellevue Square",
+    "opening_hours": "Mo-Sa 09:30-21:00; Su 11:00-19:00",
+    "phone": "+1-425-454-0885",
+    "website": "http://kuzuki.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6013559134,
+  "lat": 47.6268673,
+  "lon": -122.1444793,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;noodle",
+    "diet:vegetarian": "yes",
+    "name": "Núodle"
+  }
+},
+{
+  "type": "node",
+  "id": 6187227085,
+  "lat": 47.6125917,
+  "lon": -122.1985709,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "278",
+    "addr:postcode": "98004",
+    "addr:street": "106th Avenue Northeast",
+    "addr:unit": "102",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Xiao Chi Jie"
+  }
+},
+{
+  "type": "node",
+  "id": 6552105085,
+  "lat": 47.6114004,
+  "lon": -122.2017620,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Mango Mango Dessert",
+    "brand:wikidata": "Q117811257",
+    "cuisine": "asian;dessert",
+    "name": "Mango Mango Dessert",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7027418785,
+  "lat": 47.6157664,
+  "lon": -122.1933221,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "11020",
+    "addr:postcode": "98004",
+    "addr:street": "Northeast 6th Street",
+    "amenity": "restaurant",
+    "check_date": "2024-11-16",
+    "cuisine": "chinese",
+    "name": "The Dolar Shop",
+    "opening_hours": "Mo-Su 12:00-22:00",
+    "phone": "+1-425-390-8888"
+  }
+},
+{
+  "type": "node",
+  "id": 8604340619,
+  "lat": 47.6131395,
+  "lon": -122.1933202,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "104",
+    "addr:postcode": "98004",
+    "addr:street": "110th Avenue Northeast",
+    "addr:unit": "300",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Nibbana Thai Restaurant",
+    "opening_hours": "12:00-21:00",
+    "phone": "+1-425-637-9499",
+    "takeaway": "yes",
+    "website": "https://nibbanarestaurant.com/bellevue/"
+  }
+},
+{
+  "type": "node",
+  "id": 9188716392,
+  "lat": 47.6117769,
+  "lon": -122.1984580,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "188",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "106th Avenue Northeast",
+    "addr:unit": "210",
+    "amenity": "restaurant",
+    "branch": "Bellevue",
+    "brand": "Haidilao Hot Pot",
+    "brand:en": "Haidilao Hot Pot",
+    "brand:wikidata": "Q5638920",
+    "brand:zh": "海底捞火锅",
+    "cuisine": "chinese;hot_pot",
+    "name": "Haidilao Hot Pot",
+    "name:en": "Haidilao Hot Pot",
+    "name:zh": "海底捞火锅",
+    "phone": "+1-425-679-6408",
+    "website": "https://www.haidilao.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9333153667,
+  "lat": 47.6136097,
+  "lon": -122.1967800,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "333",
+    "addr:postcode": "98004",
+    "addr:street": "108th Avenue Northeast",
+    "amenity": "restaurant",
+    "branch": "Bellevue",
+    "check_date": "2024-09-26",
+    "cuisine": "seafood;sushi",
+    "name": "FOB Poke Bar",
+    "opening_hours": "Mo-Su 11:00-20:00",
+    "outdoor_seating": "no",
+    "self_service": "yes",
+    "website": "https://fobpokebar.com"
+  }
+},
+{
+  "type": "node",
+  "id": 9480333532,
+  "lat": 47.6146701,
+  "lon": -122.2037407,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:floor": "1",
+    "addr:housenumber": "160",
+    "addr:postcode": "98004",
+    "addr:street": "Bellevue Square",
+    "amenity": "restaurant",
+    "check_date": "2025-03-23",
+    "check_date:opening_hours": "2025-03-23",
+    "cuisine": "vietnamese",
+    "level": "0",
+    "name": "What the Pho",
+    "opening_hours:signed": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9480333583,
+  "lat": 47.6154658,
+  "lon": -122.2033029,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:floor": "2",
+    "addr:housenumber": "276",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Bellevue Square",
+    "amenity": "fast_food",
+    "branch": "Bellevue Square Mall",
+    "brand": "Panda Express",
+    "brand:wikidata": "Q1358690",
+    "check_date": "2023-09-24",
+    "cuisine": "chinese",
+    "level": "1",
+    "name": "Panda Express",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+    "phone": "+1-425-454-8289",
+    "takeaway": "yes",
+    "website": "https://www.pandaexpress.com/locations/wa/bellevue/2475"
+  }
+},
+{
+  "type": "node",
+  "id": 9630989868,
+  "lat": 47.6250025,
+  "lon": -122.1553870,
+  "tags": {
+    "addr:unit": "A1-A",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "Cho Dang Tofu",
+    "phone": "+1-206-408-4127",
+    "website": "http://www.chodangtofubbq.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9652135179,
+  "lat": 47.6094746,
+  "lon": -122.1435138,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "korean",
+    "name": "O'bop",
+    "phone": "+1-425-747-4633"
+  }
+},
+{
+  "type": "node",
+  "id": 9660036921,
+  "lat": 47.6035845,
+  "lon": -122.1322365,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15552",
+    "addr:postcode": "98007",
+    "addr:street": "Lake Hills Boulevard",
+    "addr:unit": "F5",
+    "amenity": "restaurant",
+    "brand": "Meet Fresh",
+    "brand:wikidata": "Q11172707",
+    "check_date": "2025-06-03",
+    "cuisine": "taiwanese",
+    "name": "Meet Fresh",
+    "phone": "+1-425-449-8748"
+  }
+},
+{
+  "type": "node",
+  "id": 9699105836,
+  "lat": 47.6230523,
+  "lon": -122.1321195,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1424",
+    "addr:postcode": "98007",
+    "addr:street": "156th Avenue Northeast",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "diet:vegetarian": "only",
+    "name": "Just Tiffins",
+    "phone": "+1-425-633-0696",
+    "website": "http://www.justtiffins.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9742523177,
+  "lat": 47.6272169,
+  "lon": -122.1465849,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Taste Of Xi’an",
+    "opening_hours": "Su-Th 11:00–20:00; Fr-Sa 11:00–21:00",
+    "phone": "+1-425-585-8585",
+    "website": "https://www.39miles.com/p/04846346/e1BaOjAzMTc1Nzg0fQ",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9771969303,
+  "lat": 47.6305915,
+  "lon": -122.1790710,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "Looking for Chai",
+    "opening_hours": "Su-Th 11:00-15:00,17:00-21:30; Fr,Sa 11:00-15:00,17:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9773945590,
+  "lat": 47.6341578,
+  "lon": -122.2007285,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi in Joy",
+    "phone": "+1-425-576-1743",
+    "website": "https://sijbellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9955036783,
+  "lat": 47.6118280,
+  "lon": -122.1851983,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "266",
+    "addr:postcode": "98004",
+    "addr:street": "116th Avenue Northeast",
+    "amenity": "restaurant",
+    "brand": "Kura Sushi",
+    "brand:wikidata": "Q6445491",
+    "check_date": "2026-01-27",
+    "cuisine": "sushi",
+    "diet:pescetarian": "yes",
+    "drive_through": "no",
+    "name": "Kura Sushi",
+    "official_name": "Kura Revolving Sushi Bar",
+    "opening_hours": "Mo-Th 11:00-22:00, Fr 11:00-23:00, Sa 10:30-23:00, Su 10:30-22:00",
+    "phone": "+1-360-822-9333",
+    "short_name": "Kura",
+    "takeaway": "yes",
+    "website": "https://kurasushi.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10644549377,
+  "lat": 47.5578277,
+  "lon": -122.1146221,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian;japanese",
+    "name": "Teriyaki House"
+  }
+},
+{
+  "type": "node",
+  "id": 10876936729,
+  "lat": 47.6116763,
+  "lon": -122.2012671,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "180",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Bellevue Way Northeast",
+    "amenity": "restaurant",
+    "check_date": "2026-04-26",
+    "contact:facebook": "takaibykashiba",
+    "contact:instagram": "takaibykashiba",
+    "cuisine": "sushi",
+    "dress_code": "smart_casual",
+    "email": "info@takaibykashiba.com",
+    "name": "Takai by Kashiba",
+    "opening_hours": "We-Mo 17:30+",
+    "phone": "+1-425-502-7259",
+    "reservation": "recommended",
+    "website": "https://takaibykashiba.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11125942705,
+  "lat": 47.6102953,
+  "lon": -122.2059470,
+  "tags": {
+    "addr:housenumber": "10000",
+    "addr:postcode": "98004",
+    "addr:street": "Main Street",
+    "addr:unit": "103",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;vietnamese",
+    "internet_access": "wlan",
+    "name": "Coffeeholic House",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "phone": "+1-425-590-9916",
+    "website": "https://coffeeholichouse.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11142010886,
+  "lat": 47.6040681,
+  "lon": -122.1326366,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "683",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Southeast",
+    "alt_name": "YGF MalaTang",
+    "amenity": "restaurant",
+    "check_date": "2025-06-03",
+    "cuisine": "chinese",
+    "diet:lactose_free": "yes",
+    "diet:pescetarian": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "internet_access": "wlan",
+    "name": "YangGuoFu MalaTang",
+    "takeaway": "yes",
+    "website": "https://ygfmalatangwa.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11280454229,
+  "lat": 47.6194168,
+  "lon": -122.2004218,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10438",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Northeast 10th Street",
+    "amenity": "restaurant",
+    "check_date": "2025-12-09",
+    "cuisine": "vietnamese",
+    "name": "Sizzle and Crunch"
+  }
+},
+{
+  "type": "node",
+  "id": 11521165108,
+  "lat": 47.6111291,
+  "lon": -122.1959829,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Tous les Jours",
+    "brand:wikidata": "Q3535609",
+    "check_date": "2026-06-13",
+    "cuisine": "asian",
+    "name": "Tous les Jours",
+    "phone": "+1-425-453-4100",
+    "shop": "bakery",
+    "website": "https://tljus.com/stores/bellevue-100-108th-ave-ne"
+  }
+},
+{
+  "type": "node",
+  "id": 11746004728,
+  "lat": 47.6282941,
+  "lon": -122.1461576,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14506",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "addr:unit": "2",
+    "amenity": "restaurant",
+    "branch": "Japanese BBQ",
+    "brand": "Gyu-Kaku",
+    "brand:wikidata": "Q11349387",
+    "cuisine": "japanese;barbecue",
+    "name": "Gyu-Kaku",
+    "phone": "+1-425-296-8818",
+    "website": "https://www.gyu-kaku.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11932404214,
+  "lat": 47.6212441,
+  "lon": -122.1331886,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1229",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "156th Avenue Northeast",
+    "addr:unit": "135",
+    "amenity": "restaurant",
+    "brand": "Ten Seconds Yunnan Rice Noodle",
+    "brand:en": "Ten Seconds Yunnan Rice Noodle",
+    "brand:wikidata": "Q119118794",
+    "brand:zh": "十秒到云南过桥米线",
+    "check_date": "2026-06-28",
+    "cuisine": "chinese",
+    "name": "Ten Seconds Yunnan Rice Noodle",
+    "name:en": "Ten Seconds Yunnan Rice Noodle",
+    "name:zh": "十秒到云南过桥米线",
+    "opening_hours": "Mo-Tu,Su 11:00-21:00; Fr-Sa 11:00-21:30",
+    "phone": "+1-425-698-1633",
+    "website": "https://www.tensecondsbellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11977329469,
+  "lat": 47.6306875,
+  "lon": -122.1449415,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "2241",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "148th Avenue Northeast",
+    "amenity": "restaurant",
+    "check_date": "2025-02-18",
+    "contact:facebook": "honestbellevue",
+    "contact:instagram": "honest_bellevue",
+    "contact:yelp": "https://yelp.com/biz/honest-bellevue",
+    "cuisine": "indian",
+    "diet:meat": "no",
+    "diet:vegetarian": "yes",
+    "email": "honestredmond@gmail.com",
+    "name": "Honest",
+    "opening_hours": "Mo-Su 11:00-21:30",
+    "phone": "+1-425-449-8810",
+    "website": "https://honestbellevue.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12066684617,
+  "lat": 47.6035840,
+  "lon": -122.1323994,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15540",
+    "addr:postcode": "98007",
+    "addr:street": "Lake Hills Boulevard",
+    "amenity": "restaurant",
+    "check_date": "2025-06-03",
+    "cuisine": "indian",
+    "name": "Jayam’s Tiffins & Thali",
+    "website": "https://jayamstiffinsandthali.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12067451254,
+  "lat": 47.5770245,
+  "lon": -122.1706603,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12672",
+    "addr:postcode": "98006",
+    "addr:street": "Southeast 38th Street",
+    "amenity": "restaurant",
+    "check_date": "2025-04-03",
+    "contact:facebook": "mamaskitchenbellevue",
+    "cuisine": "korean",
+    "email": "mamaskitchenbellevue@gmail.com",
+    "name": "Mama's Korean Comfort Food",
+    "opening_hours": "Su-Mo 11:00-21:00; Tu-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+1-425-747-2950",
+    "self_service": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12068281011,
+  "lat": 47.6216023,
+  "lon": -122.1702060,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "Facing East",
+    "phone": "+1-425-688-2986",
+    "website": "https://www.facingeastbellevue.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12736984191,
+  "lat": 47.6122880,
+  "lon": -122.1986206,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Chay Concept"
+  }
+},
+{
+  "type": "node",
+  "id": 12755680201,
+  "lat": 47.6317883,
+  "lon": -122.1327610,
+  "tags": {
+    "addr:housenumber": "2444",
+    "addr:postcode": "98007",
+    "addr:street": "Bel-Red Road",
+    "air_conditioning": "no",
+    "amenity": "restaurant",
+    "bar": "no",
+    "contact:facebook": "foody4moodies",
+    "contact:instagram": "foody4moodies",
+    "contact:yelp": "https://yelp.com/biz/foody-moody-bellevue",
+    "cuisine": "indian;pakistani",
+    "description": "Foody Moody is a food truck serving halal Indian and Pakistani cuisine, including dishes such as lamb korma and chicken tikka rolls. The establishment is noted for its authentic flavors and efficient service.",
+    "description:en": "Foody Moody is a food truck serving halal Indian and Pakistani cuisine, including dishes such as lamb korma and chicken tikka rolls. The establishment is noted for its authentic flavors and efficient service.",
+    "description:hi": "फूडी मूडी एक फूड ट्रक है जो हलाल भारतीय और पाकिस्तानी व्यंजन परोसता है, जिसमें लम्ब कorma और चिकन टिक्का रोल जैसे व्यंजन शामिल हैं। यह प्रतिष्ठान अपने प्रामाणिक स्वाद और कुशल सेवा के लिए जाना जाता है।",
+    "description:ne": "फूडी मूडी एक फूड ट्रक हो जसले हलाल भारतीय र पाकिस्तानी खाना परोस्छ, जसमा लाम्ब कोरमा र चिकन टिक्का रोल जस्ता परिकारहरू समावेश छन्। यो प्रतिष्ठान यसको प्रामाणिक स्वाद र प्रभावकारी सेवाका लागि परिचित छ।",
+    "description:ur": "فوڈی موڈی ایک فوڈ ٹرک ہے جو حلال بھارتی اور پاکستانی کھانے پیش کرتا ہے، جس میں لیمب کڑاہی اور چکن تکہ رول جیسے پکوان شامل ہیں۔ یہ ادارہ اپنے حقیقی ذائقے اور موثر خدمت کے لیے جانا جاتا ہے۔",
+    "diet:halal": "only",
+    "diet:vegetarian": "yes",
+    "email": "jadoonsaddd@gmail.com",
+    "level": "0",
+    "name": "Foody Moody",
+    "opening_hours": "Tu-Sa 11:30-21:00; Su 11:30-20:30",
+    "outdoor_seating": "only",
+    "payment:credit_cards": "yes",
+    "phone": "+1-425-866-9007",
+    "self_service": "no",
+    "start_date": "2020",
+    "street_vendor": "yes",
+    "website": "https://foodyformoody.com",
+    "website:menu": "https://foodyformoody.com/#our-menu"
+  }
+},
+{
+  "type": "node",
+  "id": 12772304729,
+  "lat": 47.6170848,
+  "lon": -122.1792782,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12015",
+    "addr:postcode": "98005",
+    "addr:street": "Northeast 8th Street",
+    "amenity": "restaurant",
+    "check_date": "2025-04-20",
+    "cuisine": "vietnamese",
+    "name": "Pho Ever"
+  }
+},
+{
+  "type": "node",
+  "id": 13565756501,
+  "lat": 47.6274143,
+  "lon": -122.1466170,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "addr:unit": "Suite N",
+    "amenity": "restaurant",
+    "contact:yelp": "https://yelp.com/biz/lucky-barbecue-and-noodle-house-bellevue",
+    "cuisine": "hong_kong;chinese;asian",
+    "drive_through": "no",
+    "name": "Lucky Barbecue & Noodles House",
+    "opening_hours": "09:00–20:00",
+    "phone": "+1-425-381-2888",
+    "takeaway": "yes",
+    "website": "https://luckybarbecue.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565756601,
+  "lat": 47.6274742,
+  "lon": -122.1466098,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "chinese;noodle",
+    "drive_through": "no",
+    "name": "Hua Xi Rice Ramen",
+    "opening_hours": "11:00-20:00",
+    "takeaway": "yes",
+    "website": "https://pos.chowbus.com/online-ordering/store/King-s-Rice-Noodles/15371",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772401,
+  "lat": 47.6271919,
+  "lon": -122.1464132,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "sandwich;japanese",
+    "drive_through": "no",
+    "name": "Sando by Fuji",
+    "operator": "Fuji Bakery, Inc",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772402,
+  "lat": 47.6274475,
+  "lon": -122.1467130,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "alt_name": "De Hotpotmini",
+    "amenity": "restaurant",
+    "cuisine": "hotpot;chinese",
+    "drive_through": "no",
+    "name": "De Zhuang De Hot Pot Mini",
+    "opening_hours": "Mo-Th 11:30-20:30; Fr 11:30-21:00; Sa 11:00-21:00; Su 11:00-20:30",
+    "phone": "+1-425-620-6449",
+    "website": "https://dezhuanghotpotmini.com",
+    "website:menu": "https://pos.chowbus.com/online-ordering/store/De-Hotpotmini/21608",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772501,
+  "lat": 47.6272619,
+  "lon": -122.1464154,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "chinese;noodle",
+    "drive_through": "no",
+    "name": "King's Rice Noodle",
+    "opening_hours": "11:00–20:00",
+    "phone": "+1-206-310-7505",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772502,
+  "lat": 47.6273113,
+  "lon": -122.1464381,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "taiwanese",
+    "drive_through": "no",
+    "name": "Lunch on the Plate",
+    "opening_hours": "Mo-Sa 10:30–21:00; Su 10:30–20:00",
+    "phone": "+1-206-799-9418",
+    "takeaway": "yes",
+    "website": "https://qrcode.chowbus.com/m?code=ZJJfE3",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772503,
+  "lat": 47.6274964,
+  "lon": -122.1465916,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Cocotree Chef",
+    "name:zh": "椰林小厨",
+    "opening_hours": "Su-Th 11:00–20:00; Fr-Sa 10:00–20:00",
+    "phone": "+1-206-504-4590",
+    "takeaway": "yes",
+    "website": "https://cocotreechefwa.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772504,
+  "lat": 47.6274325,
+  "lon": -122.1464077,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "addr:unit": "Suite M",
+    "amenity": "fast_food",
+    "cuisine": "dimsum;chinese",
+    "delivery": "yes",
+    "diet:vegetarian": "yes",
+    "drive_through": "no",
+    "email": "aidenrcyin@gmail.com",
+    "food:baozi": "yes",
+    "food:dumplings": "yes",
+    "food:jiaozi": "yes",
+    "food:xiaolongbao": "yes",
+    "name": "Dough Savor",
+    "opening_hours": "09:00-20:30",
+    "phone": "+1-206-748-9168",
+    "takeaway": "yes",
+    "website": "https://doughsavor.com",
+    "website:menu": "https://pos.chowbus.com/online-ordering/store/DOUGH-SAVOR/21500",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772602,
+  "lat": 47.6273107,
+  "lon": -122.1465273,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Xaio Lu Jiang",
+    "name:en": "Xaio Lu Jiang",
+    "name:zh": "小卤酱",
+    "name:zh-Latn-pinyin": "Xaio Lu Jiang",
+    "opening_hours": "10:00-20:30",
+    "phone": "+1-206-966-5666",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772603,
+  "lat": 47.6274972,
+  "lon": -122.1466510,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "chinese;dumplings",
+    "delivery": "yes",
+    "diet:vegetarian": "yes",
+    "drive_through": "no",
+    "food:dumplings": "served",
+    "food:jiaozi": "served",
+    "food:wontons": "served",
+    "name": "The Northern Dumplings",
+    "opening_hours": "11:00-20:30",
+    "phone": "+1-425-590-9888",
+    "takeaway": "yes",
+    "website": "https://thenortherndumplingswa.com",
+    "website:menu": "https://thenortherndumplingswa.com/egjb7kti/the-northern-dumplings-bellevue-98007/order-online#menu-section",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13565772701,
+  "lat": 47.6273168,
+  "lon": -122.1465946,
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14515",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "amenity": "fast_food",
+    "cuisine": "hotpot",
+    "drive_through": "no",
+    "name": "Boiling Hot Malatang",
+    "opening_hours": "11:00-20:30",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 29544556,
+  "center": {
+    "lat": 47.6223264,
+    "lon": -122.1320191
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1360",
+    "addr:postcode": "98007",
+    "addr:street": "156th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "capacity": "25",
+    "cuisine": "indian",
+    "name": "Ruchi Indian Restaurant",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 29653567,
+  "center": {
+    "lat": 47.6281896,
+    "lon": -122.1355952
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15259",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Bel-Red Road",
+    "amenity": "fast_food",
+    "building": "yes",
+    "check_date": "2025-07-27",
+    "cuisine": "indian",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "drive_through": "no",
+    "highchair": "yes",
+    "name": "Dosa House",
+    "opening_hours": "Mo-Su 11:30-21:45",
+    "outdoor_seating": "no",
+    "phone": "+1-425-999-1248",
+    "toilets": "yes",
+    "website": "http://www.bellevuechaathouse.com/dosa-house.html"
+  }
+},
+{
+  "type": "way",
+  "id": 30369068,
+  "center": {
+    "lat": 47.6173616,
+    "lon": -122.1273471
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15932",
+    "addr:postcode": "98008",
+    "addr:state": "WA",
+    "addr:street": "Northeast 8th Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date:opening_hours": "2024-05-19",
+    "cuisine": "korean",
+    "indoor_seating": "yes",
+    "name": "Palace Korean Bar and Grill",
+    "opening_hours:signed": "no",
+    "outdoor_seating": "no",
+    "phone": "+1-425-957-3522",
+    "website": "https://palacebbq.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 30455492,
+  "center": {
+    "lat": 47.6214026,
+    "lon": -122.1328105
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "1299",
+    "addr:postcode": "98007",
+    "addr:street": "156th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date": "2024-07-09",
+    "cuisine": "sushi",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Sushi Me",
+    "phone": "+1-425-644-9800",
+    "website": "http://www.sushimebellevue.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 31119962,
+  "center": {
+    "lat": 47.6114140,
+    "lon": -122.1970031
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "137",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "107th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "sushi",
+    "name": "Marinepolis Sushi Land",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-425-455-2793",
+    "smoking": "no",
+    "website": "https://www.sushilandusa.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 71070182,
+  "center": {
+    "lat": 47.6162774,
+    "lon": -122.1437272
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "707",
+    "addr:postcode": "98007",
+    "addr:street": "148th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Tasty Szechuan",
+    "website": "https://www.ordertogo.com/restaurants/tastysichuan/mesh"
+  }
+},
+{
+  "type": "way",
+  "id": 71070185,
+  "center": {
+    "lat": 47.6102996,
+    "lon": -122.1435783
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "19",
+    "addr:postcode": "98007",
+    "addr:street": "148th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date": "2024-06-18",
+    "cuisine": "chinese",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Best Wok",
+    "opening_hours": "Mo-Th 11:30-21:45; Fr,Sa 11:30-22:45; Su 12:00-21:45",
+    "outdoor_seating": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 160182380,
+  "center": {
+    "lat": 47.5780418,
+    "lon": -122.1726079
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "12450",
+    "addr:postcode": "98006",
+    "addr:street": "Southeast 38th Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Top Gun Restaurant",
+    "name:zh": "半島"
+  }
+},
+{
+  "type": "way",
+  "id": 160183571,
+  "center": {
+    "lat": 47.6191274,
+    "lon": -122.1818316
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "23",
+    "addr:postcode": "98005",
+    "addr:state": "WA",
+    "addr:street": "Lake Bellevue Drive",
+    "amenity": "restaurant",
+    "branch": "Bellevue",
+    "building": "yes",
+    "check_date": "2025-06-16",
+    "cuisine": "sushi",
+    "layer": "1",
+    "name": "I Love Sushi",
+    "phone": "+1-425-455-9090",
+    "website": "http://lakebellevue.ilovesushi.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 192567204,
+  "center": {
+    "lat": 47.6103782,
+    "lon": -122.2046490
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "10134",
+    "addr:postcode": "98004",
+    "addr:state": "WA",
+    "addr:street": "Main Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date": "2024-08-30",
+    "cuisine": "thai",
+    "name": "Fern Thai",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1-425-326-1624"
+  }
+},
+{
+  "type": "way",
+  "id": 283922833,
+  "center": {
+    "lat": 47.5767266,
+    "lon": -122.1407853
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "3703",
+    "addr:postcode": "98006",
+    "addr:street": "150th Avenue Southeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "korean",
+    "name": "Daeho Kalbijjim & Beef Soup",
+    "website": "https://daehokalbijjim.com"
+  }
+},
+{
+  "type": "way",
+  "id": 358932210,
+  "center": {
+    "lat": 47.6129913,
+    "lon": -122.1993321
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "233",
+    "addr:postcode": "98004",
+    "addr:street": "106th Avenue Northeast",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date": "2024-06-28",
+    "cuisine": "japanese",
+    "name": "Tendon Kohaku",
+    "website": "https://tendonkohakuusa.com"
+  }
+},
+{
+  "type": "way",
+  "id": 457863512,
+  "center": {
+    "lat": 47.6195723,
+    "lon": -122.1308777
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-05-15",
+    "cuisine": "korean",
+    "diet:vegetarian": "yes",
+    "indoor": "room",
+    "level": "0",
+    "name": "Bulgogi Korean BBQ",
+    "phone": "+1-425-747-7212",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 457863517,
+  "center": {
+    "lat": 47.6208039,
+    "lon": -122.1297638
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-10-14",
+    "cuisine": "chinese",
+    "indoor": "room",
+    "level": "0",
+    "name": "Nan Hotpot"
+  }
+},
+{
+  "type": "way",
+  "id": 457863532,
+  "center": {
+    "lat": 47.6191698,
+    "lon": -122.1304941
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-05-15",
+    "cuisine": "chinese",
+    "diet:vegetarian": "yes",
+    "indoor": "room",
+    "level": "0",
+    "name": "Rice & Noodles Chinese Kitchen",
+    "phone": "+1-425-209-4970",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 457863536,
+  "center": {
+    "lat": 47.6208067,
+    "lon": -122.1304291
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "brand": "JINYA Ramen Bar",
+    "brand:wikidata": "Q16997755",
+    "check_date": "2024-10-14",
+    "cuisine": "ramen",
+    "indoor": "room",
+    "level": "0",
+    "name": "JINYA Ramen Bar",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "short_name": "JINYA",
+    "website": "https://jinya-ramenbar.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 457863542,
+  "center": {
+    "lat": 47.6193183,
+    "lon": -122.1304733
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-05-15",
+    "cuisine": "thai",
+    "diet:vegetarian": "yes",
+    "indoor": "room",
+    "level": "0",
+    "name": "O'Char Thai",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-18:00",
+    "phone": "+1-425-603-0363",
+    "website": "https://ocharthai.com/xroads.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 457863543,
+  "center": {
+    "lat": 47.6190872,
+    "lon": -122.1307665
+  },
+  "tags": {
+    "addr:unit": "PM9",
+    "amenity": "fast_food",
+    "check_date": "2026-05-15",
+    "cuisine": "indian",
+    "indoor": "room",
+    "level": "0",
+    "name": "Chakra Authentic Indian",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-18:00",
+    "phone": "+1-425-641-9998",
+    "website": "https://www.onlinechakra.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 457863544,
+  "center": {
+    "lat": 47.6208036,
+    "lon": -122.1305627
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "15600",
+    "addr:postcode": "98008",
+    "addr:state": "WA",
+    "addr:street": "Northeast 8th Street",
+    "addr:unit": "O9",
+    "amenity": "restaurant",
+    "check_date": "2025-06-11",
+    "contact:facebook": "https://facebook.com/people/Banaras/61553196045318",
+    "contact:instagram": "banarasbellevue",
+    "contact:yelp": "https://yelp.com/biz/banaras-bellevue-3",
+    "cuisine": "indian",
+    "description": "Vegetarian Indian restaurant serving regional cuisine from Varanasi, Uttar Pradesh. Menu includes traditional dishes such as Litti Chokha and Sattu Paratha.",
+    "description:en": "Vegetarian Indian restaurant serving regional cuisine from Varanasi, Uttar Pradesh. Menu includes traditional dishes such as Litti Chokha and Sattu Paratha.",
+    "description:hi": "शाकाहारी भारतीय रेस्तरां जो वाराणसी, उत्तर प्रदेश की क्षेत्रीय व्यंजन परोसता है। मेनू में पारंपरिक व्यंजन जैसे लिट्टी चोखा और सत्तू पराठा शामिल हैं।",
+    "description:ur": "سبزی خور ہندوستانی ریستوران جو وارانسی، اتر پردیش کے علاقائی کھانوں کی پیشکش کرتا ہے۔ مینو میں روایتی",
+    "diet:meat": "no",
+    "diet:vegetarian": "only",
+    "indoor": "room",
+    "level": "0",
+    "name": "Banaras",
+    "name:awa": "बनारस",
+    "name:bho": "बनारस",
+    "name:en": "Banaras",
+    "name:hi": "बनारस",
+    "name:ur": "بنارس",
+    "opening_hours": "Mo-Su 11:30-15:00,17:30-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-425-590-9281",
+    "reservation": "yes",
+    "strapline": "A plate full of Indian memories",
+    "website": "https://banarasbellevue.com",
+    "website:menu": "https://banarasbellevue.com/s/banarasmenu.pdf"
+  }
+},
+{
+  "type": "way",
+  "id": 457863547,
+  "center": {
+    "lat": 47.6191039,
+    "lon": -122.1308717
+  },
+  "tags": {
+    "addr:unit": "PM12",
+    "amenity": "restaurant",
+    "check_date": "2026-05-15",
+    "cuisine": "vietnamese",
+    "diet:vegetarian": "yes",
+    "indoor": "room",
+    "level": "0",
+    "name": "Lá Qué Vietnamese Cuisine",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 457863552,
+  "center": {
+    "lat": 47.6208042,
+    "lon": -122.1299185
+  },
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-14",
+    "cuisine": "korean",
+    "indoor": "room",
+    "level": "0",
+    "name": "Bunsik"
+  }
+},
+{
+  "type": "way",
+  "id": 457863563,
+  "center": {
+    "lat": 47.6194949,
+    "lon": -122.1308784
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-05-15",
+    "cuisine": "japanese",
+    "indoor": "room",
+    "level": "0",
+    "name": "Mix Sushi Bar",
+    "phone": "+1-425-698-1424"
+  }
+},
+{
+  "type": "way",
+  "id": 500211872,
+  "center": {
+    "lat": 47.5765351,
+    "lon": -122.1386582
+  },
+  "tags": {
+    "addr:unit": "102",
+    "amenity": "restaurant",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "noodle",
+    "name": "Hong Noodle",
+    "roof:levels": "0"
+  }
+},
+{
+  "type": "way",
+  "id": 1326151817,
+  "center": {
+    "lat": 47.6149557,
+    "lon": -122.2010897
+  },
+  "tags": {
+    "alt_name": "Baron's Xi'an Kitchen and Bar",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor": "room",
+    "level": "1",
+    "name": "Baron's Sino Kitchen & Bar",
+    "opening_hours": "Mo-Fr 11:30-14:30; Mo-Th 16:30-21:00; Fr 16:30-22:00; Sa 11:30-15:00; Sa 16:30-22:00; Su 11:30-15:00; Su 16:30-21:00",
+    "opening_hours:happy_hour": "15:00-17:00",
+    "phone": "+1-425-500-8888",
+    "room": "restaurant",
+    "toilets:wheelchair": "yes",
+    "website": "https://baronsbellevue.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1326151820,
+  "center": {
+    "lat": 47.6142908,
+    "lon": -122.2008978
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "indoor": "room",
+    "level": "1",
+    "name": "Mix Sushi Bar",
+    "room": "shop"
+  }
+},
+{
+  "type": "way",
+  "id": 1326151822,
+  "center": {
+    "lat": 47.6143979,
+    "lon": -122.2009774
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "delivery": "yes",
+    "indoor": "room",
+    "level": "1",
+    "name": "Seoul Bowl",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-19:00",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://seoulbowlco.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1326151828,
+  "center": {
+    "lat": 47.6144290,
+    "lon": -122.2006760
+  },
+  "tags": {
+    "access": "yes",
+    "alt_name": "Korean Detroit Pizza",
+    "amenity": "restaurant",
+    "contact:facebook": "KODE-Pizza/61565606837723",
+    "contact:instagram": "kodepizza",
+    "contact:threads": "kodepizza",
+    "contact:yelp": "https://yelp.com/biz/kode-pizza-bellevue",
+    "cuisine": "pizza;korean",
+    "description": "Detroit-style pizza infused with vibrant Korean-inspired flavors and toppings",
+    "description:payment": "Card only;no cash;kiosk only (no human)",
+    "indoor": "room",
+    "level": "1",
+    "name": "KODE Pizza",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-19:00",
+    "operator": "Conscious Hospitality Group (CHG)",
+    "operator:source": "https://eatinseattle.com/2024/09/17/conscious-hospitality-group-unveils-three-new-food-and-beverage-concepts-kode-club-seltzer-eatdirt",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "pizza:style": "detroit",
+    "room": "restaurant",
+    "self_checkout": "only",
+    "smoking": "no",
+    "start_date": "2024-09-20",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1478964894,
+  "center": {
+    "lat": 47.6276274,
+    "lon": -122.1466003
+  },
+  "tags": {
+    "addr:city": "Bellevue",
+    "addr:housenumber": "14505",
+    "addr:postcode": "98007",
+    "addr:state": "WA",
+    "addr:street": "Northeast 20th Street",
+    "addr:unit": "Suite R",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Sum Yee Kae Seafood Restaurant",
+    "old_name:2024-04-01--2026-01-09": "Sun Sui Wah Seafood Restaurant",
+    "start_date": "2024-04-01",
+    "website": "https://sumyeekae.com"
+  }
+}
+
+  ]
+}
